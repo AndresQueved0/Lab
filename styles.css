@@ -1,0 +1,31 @@
+body{
+    margin: 10 70px 70px 70px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tittle {
+    font-size: 25px;
+    display:flex;
+    align-items: center; 
+    justify-content: center;
+}
+.tittle logo{
+    font-size: 25px;
+    display: inline-flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu li {
+    display: inline;
+    list-style: none;
+}
