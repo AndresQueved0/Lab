@@ -2,7 +2,7 @@
 
 body{
     display: flex;
-    margin: 10 70px 70px 70px;
+    flex-direction: column;
     font-family: "Roboto Condensed", sans-serif;
     background-color: #ffffff;
     justify-content: center;
@@ -21,7 +21,7 @@ body{
 }
 .tittle logo{
     margin: 0;
-    margin-right: 80px;
+    margin-right: 180px;
     color: #ffffff;
     font-size: 20px;
     display: inline-flex;
@@ -42,22 +42,32 @@ h2, h3{
 }
 .tittle h3{
     text-align: right;
-    margin-right: 40px;
+    margin-right: 140px;
 }
 .menu {
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.menu li {
-    display: inline;
-    list-style: none;
-    margin: 10px;
+    width: 100%;
+    background-color: #1c4a48;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
+.menu li {
+    color: #ffffff;
+    display: flex;
+    list-style: none;
+    margin: 50.7px;
+}
+
+hr {
+    display: inline;
+    transform: rotate(90deg); 
+    color: #ffffff;
+}
 .container {
     border: black 1px solid;
-    width: 60%;
+    border-radius: 20px;
+    width: 59%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,3 +77,41 @@ h2, h3{
     background-repeat: no-repeat;
 }
 
+.container-box {
+    width: 100%;
+    border: black 1px solid;
+    margin: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.tittle-box{
+    margin: 0;
+}
+.text-box{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.text-box p{
+    width: 100%;
+    margin: 30px;
+}
+
+.box-text{
+    width: 15%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer {    
+    font-family: "Roboto Condensed", sans-serif;
+    color: #ffffff;
+    background-color: #1c4a48;
+    width: 30%;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.form {
+    background-color: #1c4a48;
+    color: #ffffff;
+}
